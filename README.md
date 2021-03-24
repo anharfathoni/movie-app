@@ -11,7 +11,8 @@
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `yarn / npm install`
+for package installation
 ### `yarn start / npm run start`
 
 Runs the app in the development mode.\
