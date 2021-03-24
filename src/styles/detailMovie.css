@@ -1,0 +1,30 @@
+.detailMovieContainer {
+  padding: 2rem;
+  font-size: 14px;
+}
+
+.detailMovieContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.detailTitle {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.detailDescription {
+  font-size: 14px;
+}
+
+@media (min-width: 1024px) {
+  .detailMovieContent {
+    grid-template-columns: 40% 60%;
+    justify-items: start;
+    gap: 0;
+  }
+}
